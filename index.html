@@ -5,76 +5,44 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Company Profile</title>
-<link href="Website.css" rel="stylesheet" type="text/css">
+<link href="../Website.css" rel="stylesheet" type="text/css">
 <style type="text/css">
 body {
-    background-image: url();
-    background-color: #08A8B7;
+    background-image: url(../profile%20image.png);
 }
 body,td,th {
     color: #FFFFFF;
-    font-size: 9px;
 }
-	
 </style>
-<link href="css/bootstrap-5.3.8.css" rel="stylesheet" type="text/css">
+<link href="../css/bootstrap-5.3.8.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
 
-<form id="form1" name="form1" method="post">
-  
-	<button type="Submit">Search</button>
-	
-	
-
-<script>
-function searchFunction() {
-    let input = document.getElementById("searchInput").value.toLowerCase();
-    let content = document.body.innerText.toLowerCase();
-
-    if (content.includes(input)) {
-        alert("Found something!");
-    } else {
-        alert("No results found");
-    }
-}
-	
-	<script>
-function searchPage() {
-    let input = document.getElementById("searchInput").value.toLowerCase();
-
-    if (input === "trainee web developers") {
-        window.location.href = "trainees.html";
-    } 
-    else if (input === "about us") {
-        window.location.href = "about.html";
-    else if (input === "Service and news") {
-		window.location.href = "Service.html";
-	else if
-	}
-</script>
-</form>
-
-<h1>Profile of company image</h1>
+<h1><h1 id="Heading"> Profile of company image</h1>
+</h1>
+<ul class="nav nav-tabs">
+  <li class="nav-item"> <a class="nav-link active" href="#">Profile of existing trainees</a> </li>
+  <li class="nav-item"> <a class="nav-link active" href="#">Job specification and required requirements&nbsp;</a> </li>
+  <li class="nav-item"> <a class="nav-link active" href="#">Online Application&nbsp;</a> </li>
+  <li class="nav-item active"> <a class="nav-link active" href="#">Links to web dev courses&nbsp;</a> </li>
+</ul>
+<h1>&nbsp; </h1>
+	<input type="button" name="Search" id="#Search" value="Search">
 &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;
 <input type="button" name="About" id="#About" value="About">
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
 <input type="button" name="Services&news" id="#Services&news" value="Services & news">
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-<input type="button" name="Contact us" id="contact us" value="Contact us">    
-<input type="button" name="Privacy and policy" id="Privacy and policy" value="Privacy and policy">
-	
-	
-	
+<input type="button" name="Contact us" id="contact us" value="Contact us">
 <p>Welcome to Hot Beans Web. "Start your web development career here"</p>
-<img src="Web dev LOGO.webp" width="300" height="250" alt=""/>
+<img src="../Web dev LOGO.webp" width="300" height="250" alt=""/>
 <p> Hot beans web is a web development company. We specialise in developing high quality websites for business across a range of industries. </p>
-
-<img src="web dev services.png" width="300" height="250" alt=""/>
+<p>Services</p>
+<img src="../web dev services.png" width="300" height="250" alt=""/>
 	<p>www.HotBeansWeb.com</p>
-
-<p></p>
+	<p></p>
+	
 <a href="Profile_of_existing_trainee_web_developers_Non_Optimised.html">Profile of existing trainee web developers</a>
 <a href="Job_Specifications_and_required_requirements_Non_Optimised.html">Job Specifications and Requirements</a>
 <a href="Online_Application_form_Non_Optimised.html">Online Application form</a>
